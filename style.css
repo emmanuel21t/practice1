@@ -1,0 +1,288 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 12%;
+    background-color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav  {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #667085;
+    font-weight: 14px;
+}
+
+nav a:first-child {
+    color: #287c68;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 12%;
+    background-color: #f7f8f6;
+    gap: 60px;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.welcome {
+    color: #287c68;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 15px 0 5px;
+    color:#172b24
+}
+
+.hero h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 25px;
+    color: #172b24;
+}
+
+.description {
+    color: #667085;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 6px;
+    background-color: #287c68;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.code-box {
+    width: 400px;
+    background-color: #ffffff;
+    border: 1px solid #d9dfdc;
+    border-radius: 8px;
+    overflow: hidden;
+    color: #47796c;
+    font-family: monospace;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    flex-shrink: 0;
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 18px;
+    border-bottom: 1px solid #d9dfdc;
+    color: #667085;
+    font-size: 12px;
+}
+
+.code-content {
+    padding: 18px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.code-content p {
+    margin: 0 0 10px;
+}
+
+.about {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.about-container {
+  max-width: 840px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  color: #667085;
+  line-height: 1.6;
+}
+
+.goal-box {
+  width: 280px;
+  padding: 25px;
+  background-color: #f5f7f8;
+  border-radius: 8px;
+}
+
+.goal-box h4 {
+  color: #3b806f;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.goal-box h3 {
+  margin-bottom: 10px;
+}
+
+.goal-box p {
+  color: #667085;
+  font-size: 14px;
+}
+
+.learning {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.learning-container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.learning-container > h2 {
+  margin-bottom: 10px;
+}
+
+.learning-container > p {
+  color: #667085;
+  margin-bottom: 30px;
+}
+
+.learning-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.learning-card {
+  flex: 1;
+  padding: 25px;
+  border: 1px solid #dfe5e2;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.card-icon {
+  color: #3b806f;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.learning-card h3 {
+  margin-bottom: 12px;
+}
+
+.learning-card p {
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.learning-card span {
+  color: #3b806f;
+  font-size: 12px;
+}
+
+.contact {
+  padding: 45px 0;
+  background-color: #eef5f3;
+}
+
+.contact-container {
+  max-width: 840px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  color: #667085;
+  font-size: 14px;
+}
+
+.email-button {
+  padding: 12px 20px;
+  border: 1px solid #3b806f;
+  border-radius: 6px;
+  color: #3b806f;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.email-button:hover {
+  background-color: #3b806f;
+  color: white;
+}
+
+footer {
+  padding: 25px 0;
+  background-color: #172b24;
+  color: white;
+}
+
+.footer-container {
+  max-width: 840px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
