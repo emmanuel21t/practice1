@@ -3,146 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omeiza Emmanuel</title>
-
+    <title>Omeiza Emmanuel|My First Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <div class="logo">Omeiza Emmanuel</div>
+    <header class="header">
+        <nav class="navbar">
+            <h2>Omeiza Emmanuel</h2>
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">learning</a>
-            <a href="#">Contact</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <section class="hero">
-        <div class="hero-text">
-            <p class="welcome">WELCOME TO MY NEW CORNER OF THE WEB</p>
 
-            <h1>Hi, I'm Omeiza.</h1>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY LITTLE CORNER OF THE WEB</p>
 
-            <h2>im learning to build for the web.</h2>
+            <h1>Hi, I'm Omeiza Emmanuel.<br>
+                I'm learning to build<br>
+                for the web.
+            </h1>
 
             <p class="description">
-                this is my practice space where im learning HTML, CSS, javascript
-                 and everything that makes the web work.
+                A beginner exploring HTML and CSS, one small
+                project at a time. This is my first personal homepage.
             </p>
-            <button>see what i'm learning</button>
+
+            <a href="#learning" class="button">
+                See what I'm learning
+            </a>
+        </div>
+
+        <div class="code-card">
+            <div class="code-header">
+                <span>index.html</span>
+                <span>My first page</span>
+            </div>
+
+            <div class="code-content">
+                <p>&lt;h1&gt;Hello, world!&lt;/h1&gt;</p>
+                <p>&lt;p&gt;Welcome to my website.&lt;/p&gt;</p>
+                <br>
+                <p>&lt;style&gt;</p>
+                <p class="indent">body {</p>
+                <p class="indent-more">font-family: sans-serif;</p>
+                <p class="indent">}</p>
+                <p>&lt;/style&gt;</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>A little about me</h2>
+
+            <p>
+                I'm a curious learner who enjoys turning ideas into simple, useful things.<br>
+                Right now, I'm practicing the basics of web design and getting<br>
+                comfortable writing my own code.
+            </p>
+        </div>
+
+        <div class="goal-card">
+            <p class="welcome">MY CURRENT GOAL</p>
+            <h3>Build a webpage from scratch.</h3>
+            <p>Start small. Practice often. Keep improving.</p>
+        </div>
+    </section>
+
+    <section class="learning" id="learning">
+        <h2>What I'm learning</h2>
+        <p>Three building blocks I'm working on, one step at a time.</p>
+
+        <div class="learning-grid">
+
+            <div class="learning-card">
+                <div class="icon">&lt;/&gt;</div>
+                <h3>HTML basics</h3>
+                <p>
+                    Give a page its structure with headings,
+                    paragraphs, links, and lists.
+                </p>
+                <span>Practicing: semantic elements</span>
+            </div>
+
+            <div class="learning-card">
+                <div class="icon">{ }</div>
+                <h3>CSS styling</h3>
+                <p>
+                    Bring a page to life with colors, fonts,
+                    borders, and comfortable spacing.
+                </p>
+                <span>Practicing: the box model</span>
+            </div>
+
+            <div class="learning-card">
+                <div class="icon">[ ]</div>
+                <h3>Page layouts</h3>
+                <p>
+                    Arrange content into clear sections and
+                    make simple cards sit side by side.
+                </p>
+                <span>Practicing: Flexbox</span>
+            </div>
 
         </div>
-    
-        <div class="code-box">
-             
-             <div class="code-header">
-                 <span>index.html</span>
-                 <span>my firstpage</span>
-             </div>
+    </section>
 
-             <div class="code-content">
+    <section class="contact" id="contact">
+        <div>
+            <h2>Let's say hello.</h2>
+            <p>
+                Have a learning tip or just want to chat?
+                I'd love to hear from you.
+            </p>
+        </div>
 
-                 <p>&lt;h1&gt;Hello, World!&lt;/h1&gt;</p>
+        <a href="mailto:hello@omeizaemmanuel.example" class="email">
+            hello@omeizaemmanuel.example
+        </a>
+    </section>
 
-                <p>&lt;p&gt;This is my first webpage.&lt;/p&gt;</p>
-
-                <br>
-
-                <p>&lt;style&gt;</p>
-                <p>    body {</p>
-                <p>        background-color: #f0f0f0;</p>
-                <p>    }</p>
-                <p>&lt;/style&gt;</p>
-             </div>
-             </div>
-             
-             </section>
-             <section class="about">
-                <div class="about-container">
-
-                <div class="about-text">
-                    <h2>A little about Me</h2>
-
-                    <p>
-                        I'm a curious learner who enjoys turning ideas into simple,useful things.
-                        Right now, I'm practicing the basics of web design 
-                        and getting comfortable
-                        writing my own code.
-                    </p>                   
-                </div>
-                
-                <div class="goal-box">
-                    <h4>MY CURRENT GOAL</h4>
-
-                    <h3>Build responsive websites from scratch.</h3>
-                    <span>Start small. Practices often. Keep improving.</span>
-                </div>
-                    
-             </section>
-             <section class="learning">
-  <div class="learning-container">
-
-    <h2>What I'm learning</h2>
-
-    <p>Three building blocks I'm working on, one step at a time.</p>
-
-    <div class="learning-cards">
-
-      <div class="learning-card">
-        <div class="card-icon">&lt;/&gt;</div>
-        <h3>HTML basics</h3>
-        <p>Give a page its structure with headings, paragraphs, links, and lists.</p>
-        <span>Practicing: semantic elements</span>
-      </div>
-
-      <div class="learning-card">
-        <div class="card-icon">{ }</div>
-        <h3>CSS styling</h3>
-        <p>Bring a page to life with colors, fonts, borders, and comfortable spacing.</p>
-        <span>Practicing: the box model</span>
-      </div>
-
-      <div class="learning-card">
-        <div class="card-icon">[ ]</div>
-        <h3>Page layouts</h3>
-        <p>Arrange content into clear sections and make simple cards sit side by side.</p>
-        <span>Practicing: Flexbox</span>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<section class="contact">
-  <div class="contact-container">
-
-    <div>
-      <h2>Let's say hello.</h2>
-      <p>Have a learning tip or just want to chat? I'd love to hear from you.</p>
-    </div>
-
-    <a href="mailto:hello@omeiza.example" class="email-button">
-      hello@omeiza.example
-    </a>
-
-  </div>
-</section>
-<footer>
-  <div class="footer-container">
-
-    <p>© 2026 Omeiza Emmanuel. Built while learning.</p>
-
-    <div class="footer-links">
-      <a href="#">GitHub</a>
-      <a href="#">LinkedIn</a>
-    </div>
-
-  </div>
-</footer>
-        
+    <footer class="footer">
+        <p>&copy; 2026 Omeiza Emmanuel. Made for learning.</p>
+        <p>Built with curiosity, HTML &amp; CSS.</p>
+    </footer>
 
 </body>
 </html>
